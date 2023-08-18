@@ -1,0 +1,44 @@
+.subscription {
+    position: relative;
+    padding: 8rem 0;
+}
+.subscription-main {
+    overflow: hidden;
+}
+.subscription__slider {
+    height: auto;
+}
+.subscription__slider--inner .slider-item {
+    flex: 1 0 19.2rem;
+}
+.subscription__slider--inner .slider-item .card__cover {
+    height: 27rem;
+}
+.subscription__slider--inner .card .card__title {
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.card__list.card__list--sub {
+    justify-content: center;
+}
+button.section__nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: var(--bg-shape);
+    color: var(--white-color);
+}
+button.section__nav:hover {
+    background: var(--pri-color);
+}
+button.section__nav.section__nav--prev {
+    left: 2rem;
+}
+button.section__nav.section__nav--next {
+    right: 2rem;
+}
